@@ -111,9 +111,9 @@ char* get_solving_array(int* a, int size_num, int* p, int* total_movs) {
 	int index = p - a;
 	int* i_ptr =&a[index];
 	int left = 0;
-	char* moves = malloc(50 * sizeof(char));
-	for (int i = 0; i < 20; i++) {
-		moves[i] = 'b';
+	char* moves = (char*)malloc(1 * sizeof(char));
+	for (int i = 0; i < 1; i++) {
+		*(moves + i) = 'b';
 	}
 	int* ptrA = a + 0;
 	int* ptrB = a + size_num;

@@ -1,19 +1,22 @@
-﻿Build started 07/11/2015 12:08:20.
-     1>Project "C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\AssignmentEx3\AssignmentEx3.vcxproj" on node 2 (Build target(s)).
+﻿Build started 07/11/2015 13:01:25.
+     1>Project "C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\AssignmentEx3\AssignmentEx3.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt pal.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ex3.c pal.c visible.c
+         visible.c
          pal.c
      1>c:\users\dave\documents\visual studio 2015\projects\assignmentex3\assignmentex3\pal.c(304): warning C4047: 'function': 'size_t' differs in levels of indirection from 'int *'
      1>c:\users\dave\documents\visual studio 2015\projects\assignmentex3\assignmentex3\pal.c(304): warning C4024: 'realloc': different types for formal and actual parameter 2
      1>c:\users\dave\documents\visual studio 2015\projects\assignmentex3\assignmentex3\pal.c(301): warning C4477: 'printf' : format string '%a' requires an argument of type 'double', but variadic argument 1 has type 'int *'
      1>c:\users\dave\documents\visual studio 2015\projects\assignmentex3\assignmentex3\pal.c(313): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+         ex3.c
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\Debug\AssignmentEx3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\Debug\AssignmentEx3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\Debug\AssignmentEx3.lib" /MACHINE:X86 Debug\ex3.obj
          Debug\pal.obj
          Debug\visible.obj
          AssignmentEx3.vcxproj -> C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\Debug\AssignmentEx3.exe
-     1>Done Building Project "C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\AssignmentEx3\AssignmentEx3.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Dave\documents\visual studio 2015\Projects\AssignmentEx3\AssignmentEx3\AssignmentEx3.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.76
+Time Elapsed 00:00:05.01
