@@ -1,9 +1,10 @@
 
 #include "pal.h"
 
-int main() {
-	int pal_num = 123456;
-	int num_size = 6;
+int main(int argc, char* argv[]) {
+	int pal_num = atoi(argv[1]);
+	int num_size = atoi(argv[2]);
+
 	char commands[] = { 'a','d','w','x' };
 	int commands_size = 4;
 
